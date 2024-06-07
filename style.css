@@ -1,0 +1,114 @@
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(back.jpeg);
+  background-size: cover; 
+  background-position: center;
+  font-family:monospace;
+}
+
+.Main-bar{
+  text-align: center;
+  background-color:#b0a4bc;
+}
+.Main-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: ##b0a4bc;
+
+}
+.Main-bar ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.Main-bar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
+.active, .Main-bar ul li:hover{
+  background-color:#d1c2d1;
+}
+.dest-sub{
+  display: none;
+}
+.Main-bar ul li:hover .dest-sub{
+  display: block;
+  position: absolute;
+  background-color: #d1c2d1;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.Main-bar ul li:hover .dest-sub ul{
+  display: block;
+  margin: 10px;
+}
+.Main-bar ul li:hover .dest-sub ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #000000;
+  border-radius: 0;
+  text-align: left;
+}
+.Main-bar ul li:hover .dest-sub ul li:last-child{
+  border-bottom: none;
+}
+.Main-bar ul li:hover .dest-sub ul li a:hover{
+  color: #ffffff;
+}
+h1{
+  text-align: center;
+  font-size: 90px;
+  color: #000000;
+  font-family: monospace;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255,255,255,0.0);
+  font-family: monospace;
+}
+h3{  
+  color:#000000;
+  font-family:sans-serif;
+  font-weight: bold;
+  text-align:center;
+  font-style: italic;
+  font-size:px;
+}
+.logo {
+  position: relative;
+  top: 350px;
+  right: 100px;
+
+}
+p{
+  color:#000000;
+  font
+  font-family:monospace;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  background-color:rgb(145, 145, 145, 0.7);
+  
+}
+.up1 {
+  position: relative;
+  left: 60px;
+}
+.up2 {
+  position: relative;
+  left: 1560px;
+  bottom: 470px;
+  
+}
+.up3 {
+  position: relative;
+  left: 810px;
+  bottom: 940px;
+  
+}
